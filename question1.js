@@ -8,5 +8,6 @@ function swapCase(str) {
     }).join('');
 }
 
+// Example usage:
 const inputString = 'The Quick Brown Fox';
-console.log(swapCase(inputString)); 
+console.log(swapCase(inputString)); // Output: 'tHE qUICK bROWN fOX'
