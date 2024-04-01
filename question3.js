@@ -10,5 +10,7 @@ function isPrime(num) {
 function filterPrimes(numbers) {
     return numbers.filter(num => isPrime(num));
 }
+
+// Example usage:
 const inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(filterPrimes(inputArray));
+console.log(filterPrimes(inputArray)); // Output: [2, 3, 5, 7]
